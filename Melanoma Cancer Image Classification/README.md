@@ -1,10 +1,10 @@
 # Melanoma Cancer Image Classification
 
-This project focuses on classifying images of skin lesions as either malignant (melanoma) or benign using machine learning and deep learning techniques. Melanoma, a type of skin cancer, can be deadly if not detected and treated early. Automated classification systems can assist dermatologists in identifying potentially harmful lesions, leading to timely intervention and improved patient outcomes.
+This project aims to classify images of skin lesions as either malignant (melanoma) or benign using deep learning techniques. Early detection of melanoma can significantly improve patient outcomes, making automated classification systems valuable tools for dermatologists and medical professionals.
 
 ## Dataset:
 
-- The dataset used for training and testing consists of images of skin lesions collected from various medical sources and databases.
+- The dataset consists of images of skin lesions obtained from various medical sources and databases.
 - Each image is labeled as either "melanoma" or "benign" based on expert diagnosis.
 - The dataset is divided into training, validation, and test sets for model training, validation, and evaluation, respectively.
 
@@ -20,12 +20,12 @@ This project focuses on classifying images of skin lesions as either malignant (
 
 - Convolutional Neural Network (CNN) architecture is employed for image classification.
 - Multiple convolutional layers are utilized for feature extraction, followed by pooling layers to reduce spatial dimensions.
-- Fully connected layers are employed for classification, with softmax activation for predicting class probabilities.
+- Fully connected layers are employed for classification, with sigmoid activation for binary classification.
 
 ## Training Process:
 
 - The model is trained using a portion of the dataset, with data augmentation techniques applied to improve model generalization and robustness.
-- The training process involves optimizing the model parameters using the Adam optimizer and minimizing the sparse categorical cross-entropy loss.
+- The training process involves optimizing the model parameters using the Adam optimizer and minimizing the binary cross-entropy loss.
 - Training progress is monitored using validation data, and early stopping may be applied to prevent overfitting.
 
 ## Evaluation:
