@@ -45,7 +45,7 @@ Contributions to this project are welcome! If you have any improvements, bug fix
 
 ## License:
 
-This project is licensed under the [MIT License](Image-Classification/LICENSE). You are free to modify, distribute, and use the code within this repository for both commercial and non-commercial purposes.
+This project is licensed under the [MIT License](Image-Classification/blob/main/LICENSE). You are free to modify, distribute, and use the code within this repository for both commercial and non-commercial purposes.
 
 ## Acknowledgments:
 
