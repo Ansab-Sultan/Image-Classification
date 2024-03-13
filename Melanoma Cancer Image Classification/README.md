@@ -33,10 +33,18 @@ This project aims to classify images of skin lesions as either malignant (melano
 - The trained model's performance is evaluated on a separate test dataset to assess its accuracy, sensitivity, specificity, and other relevant metrics.
 - Classification reports, confusion matrices, and ROC curves may be generated to analyze the model's performance and identify areas for improvement.
 
+## Saving the Model:
+
+- The trained CNN model is serialized to disk for future use.
+
+## Streamlit App:
+
+- A Streamlit web application is included for real-time classification. Users can upload image and receive classification instantly.
+  
 ## Usage:
 
 - Clone or download the repository to your local machine.
-- Ensure that the required dependencies are installed (TensorFlow, Keras, NumPy, Pandas, Matplotlib).
+- Ensure that the required dependencies are installed (TensorFlow, Keras, NumPy, Pandas, Matplotlib, StreamLit).
 - Follow the instructions provided in the project's README file for setting up the environment, training the model, and evaluating its performance.
 
 ## Contributing:
